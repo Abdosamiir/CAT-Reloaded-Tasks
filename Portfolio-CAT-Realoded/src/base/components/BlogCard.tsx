@@ -14,7 +14,7 @@ export const BlogCard = ({ src, h1, p }: Props) => {
       <p className="text-xl font-normal">{p}</p>
       <Button
         text="Read More"
-        className="border-black w-[30%] uppercase px-1 py-1 hover:bg-gray-700 hover:text-white hover:transition-all"
+        className="border-black w-[30%] uppercase px-1 py-1 hover:bg-black hover:text-white hover:transition-all"
       />
     </div>
   );

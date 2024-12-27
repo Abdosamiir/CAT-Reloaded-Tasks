@@ -6,6 +6,7 @@ export default {
       backgroundImage: {
         home: "url('./src/assets/imgs/bg.png')",
         person: "url('./src/assets/imgs/headshot.png')",
+        testimonals: "url('./src/assets/imgs/testimonals.png')",
       },
     },
   },

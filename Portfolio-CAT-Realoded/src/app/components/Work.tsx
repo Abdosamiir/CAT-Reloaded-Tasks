@@ -3,10 +3,11 @@ import studentsapp from "../../assets/imgs/studentsapp.png";
 import weatherapp from "../../assets/imgs/Mask group.png";
 import ProjectData from "../../base/components/ProjectData";
 import { Button } from "../../base/components/Button";
+import { Element } from "react-scroll";
 
 const Work = () => {
   return (
-    <>
+    <Element name="Work">
       <div className="text-5xl pt-8 font-bold text-center text-[#b4b4b4]">
         Worked with
       </div>
@@ -45,7 +46,7 @@ const Work = () => {
           className="border-black font-semibold px-5 py-3 text-lg hover:bg-black hover:text-white hover:transition-all"
         />
       </div>
-    </>
+    </Element>
   );
 };
 
