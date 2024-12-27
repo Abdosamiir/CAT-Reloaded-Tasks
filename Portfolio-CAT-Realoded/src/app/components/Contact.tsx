@@ -1,5 +1,5 @@
 import { Element } from "react-scroll";
-import jonathan from "../../assets/imgs/person.png";
+import jonathan from "/imgs/person.png";
 
 const Contact = () => {
   return (

@@ -1,5 +1,5 @@
 import { Element } from "react-scroll";
-import aboutMe from "../../assets/imgs/About-me-img.png";
+import aboutMe from "/imgs/About-me-img.png";
 import { Button } from "../../base/components/Button";
 
 const About = () => {

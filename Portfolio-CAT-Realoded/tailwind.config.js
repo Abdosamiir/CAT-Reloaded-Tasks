@@ -4,9 +4,9 @@ export default {
   theme: {
     extend: {
       backgroundImage: {
-        home: "url('../assets/imgs/bg.png')",
-        person: "url('../assets/imgs/headshot.png')",
-        testimonals: "url('../assets/imgs/testimonals.png')",
+        home: "url('public/imgs/bg.png')",
+        person: "url('public/imgs/headshot.png')",
+        testimonals: "url('public/testimonals.png')",
       },
     },
   },

@@ -1,6 +1,6 @@
 import { imgSrc } from "../../base/utils/utils";
-import studentsapp from "../../assets/imgs/studentsapp.png";
-import weatherapp from "../../assets/imgs/Mask group.png";
+import studentsapp from "/imgs/studentsapp.png";
+import weatherapp from "/imgs/Mask group.png";
 import ProjectData from "../../base/components/ProjectData";
 import { Button } from "../../base/components/Button";
 import { Element } from "react-scroll";
