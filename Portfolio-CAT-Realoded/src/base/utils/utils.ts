@@ -19,7 +19,7 @@ export const blogData = [
 ];
 
 export const imgSrc = [
-  "./src/assets/imgs/Ablestate.png",
-  "/src/assets/imgs/whd.png",
+  " ../../assets/imgs/Ablestate.png",
+  "../../assets/imgs/whd.png",
   "/src/assets/imgs/Byte.png",
 ];
