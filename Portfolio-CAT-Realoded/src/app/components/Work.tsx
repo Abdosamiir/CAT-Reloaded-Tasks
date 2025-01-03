@@ -28,16 +28,16 @@ const Work = () => {
         <img
           src={studentsapp}
           alt="studentAppPhoto"
-          className="w-[600px] h-[350px]"
+          className="w-[550px] h-[380px]"
         />
-        <ProjectData />
+        <ProjectData text="Students App" />
       </div>
       <div className="flex gap-16 justify-center pt-4 px-32  ">
-        <ProjectData />
+        <ProjectData text="Weather App " />
         <img
           src={weatherapp}
           alt="weatherAppPhoto"
-          className="w-[600px] h-[350px]"
+          className="w-[550px] h-[380px]"
         />
       </div>
       <div className="border-black flex justify-center items-center pt-5">

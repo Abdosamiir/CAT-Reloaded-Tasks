@@ -1,8 +1,8 @@
-const ProjectData = () => {
+const ProjectData = ({ text }: { text: string }) => {
   return (
     <div className="flex flex-col justify-around">
       <div>
-        <h1 className="text-4xl font-bold">Weather App</h1>
+        <h1 className="text-5xl font-bold">{text}</h1>
         <p className="font-medium text-3xl pt-6">
           I made a students App which help the students keep track of their
           academic progress.

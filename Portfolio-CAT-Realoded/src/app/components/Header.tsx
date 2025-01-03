@@ -5,7 +5,7 @@ import { Element, Link } from "react-scroll";
 const Header = () => {
   return (
     <>
-      <header className="text-white flex justify-between items-center fixed bg-black w-full px-32 py-3  ">
+      <header className="text-white flex justify-between items-center fixed bg-[#080808] w-full px-32 py-3  ">
         <Link to={"Home"} spy={true} smooth={true} duration={150}>
           <div className="text-3xl font-bold cursor-pointer">KASASIRA</div>
         </Link>
@@ -43,7 +43,7 @@ const Header = () => {
                 <Link to={"Work"} spy={true} smooth={true} duration={150}>
                   <Button
                     text="See My Projects"
-                    className="bg-[#D21F46] px-5 py-3 text-white w-48 font-normal text-lg border-none"
+                    className="bg-[#D21F46] hover:bg-[#d21f46e3] px-5 py-3 text-white w-48 font-normal text-lg border-none"
                   />
                 </Link>
               </div>
